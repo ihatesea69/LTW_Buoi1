@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f0f0f0; /* Thêm màu nền cho body */
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Tăng kích thước padding cho nút */
+    font-size: 18px; /* Tăng kích thước phông chữ cho nút */
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 20px; /* Tăng bán kính góc cho nút */
+    transition: background-color 0.5s ease; /* Thêm hiệu ứng chuyển đổi cho nút */
+    max-width: 200px; /* Giới hạn chiều dài của nút */
+    margin: auto; /* Canh giữa nút */
+}
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px); /* Thêm hiệu ứng di chuyển cho nút khi hover */
+}
